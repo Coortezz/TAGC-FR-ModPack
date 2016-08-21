@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<er-config>
+  <keys>
+    <!--
+    https://msdn.microsoft.com/en-us/library/windows/desktop/dd375731(v=vs.85).aspx
+    For now, if you want controller input, you need to map it to a key first using some utility.
+    -->
+
+			<!--Menu Controls-->   
+    <key function="toggle_main_menu" value="VK_F1"/>         <!--default  <key function="toggle_main_menu" value="VK_F1"/>-->
+    <key function="menu_up" value="VK_NUMPAD8"/>             <!--default  <key function="menu_up" value="VK_NUMPAD8"/>-->
+    <key function="menu_down" value="VK_NUMPAD2"/>           <!--default  <key function="menu_down" value="VK_NUMPAD2"/>-->
+    <key function="menu_left" value="VK_NUMPAD4"/>           <!--default  <key function="menu_left" value="VK_NUMPAD4"/>-->
+    <key function="menu_right" value="VK_NUMPAD6"/>          <!--default  <key function="menu_right" value="VK_NUMPAD6"/>-->
+    <key function="menu_select" value="VK_NUMPAD5"/>         <!--default  <key function="menu_select" value="VK_NUMPAD5"/>-->
+    <key function="menu_back" value="VK_NUMPAD0"/>           <!--default  <key function="menu_back" value="VK_NUMPAD0"/>-->
+
+			<!--NoClip Controls-->
+    <key function="toggle_noclip" value="VK_F2"/>            <!--default  <key function="toggle_noclip" value="VK_F2"/>-->
+    <key function="noclip_up" value="VK_KEY_Q"/>             <!--default  <key function="noclip_up" value="VK_KEY_Q"/> -->
+    <key function="noclip_down" value="VK_KEY_Z"/>           <!--default  <key function="noclip_down" value="VK_KEY_Z"/>-->
+    <key function="noclip_forward" value="VK_KEY_W"/>        <!--default  <key function="noclip_forward" value="VK_KEY_W"/>-->
+    <key function="noclip_back" value="VK_KEY_S"/>           <!--default  <key function="noclip_back" value="VK_KEY_S"/>-->
+    <key function="noclip_rotate_left" value="VK_KEY_A"/>    <!--default  <key function="noclip_rotate_left" value="VK_KEY_A"/>-->
+    <key function="noclip_rotate_right" value="VK_KEY_D"/>   <!--default  <key function="noclip_rotate_right" value="VK_KEY_D"/>-->
+    <key function="noclip_speed" value="VK_SHIFT"/>          <!--default  <key function="noclip_speed" value="VK_SHIFT"/>-->
+    
+			<!--Player Controls-->
+  	<key function="player_ragdoll" value="VK_NUMPAD1"/>      <!--default  <key function="player_ragdoll" value="VK_NUMPAD1"/>-->
+    <key function="ragdoll_force" value="VK_NUMPAD7"/>       <!--default  <key function="ragdoll_force" value="VK_NUMPAD7"/>-->
+    
+			<!--Teleport Controls-->	
+    <key function="teleport_to_marker" value="VK_F3"/>       <!--default  <key function="teleport_to_marker" value="VK_F3"/>-->
+
+			<!--Vehicle Controls-->	
+	  <key function="veh_boost" value="VK_NUMPAD9"/>           <!--default  <key function="veh_boost" value="VK_NUMPAD9"/> -->
+    <key function="veh_stop" value="VK_NUMPAD3"/>            <!--default  <key function="veh_stop" value="VK_NUMPAD3"/>-->
+    <key function="left_signal" value="VK_LEFT"/>            <!--default  <key function="left_signal" value="VK_LEFT"/>-->
+    <key function="right_signal" value="VK_RIGHT"/>          <!--default  <key function="right_signal" value="VK_RIGHT"/>-->
+    <key function="interior_light" value="VK_DECIMAL"/>      <!--default  <key function="interior_light" value="VK_DECIMAL"/>-->
+    <key function="front_windows_up" value="VK_UP"/>         <!--default  <key function="front_windows_up" value="VK_UP"/>-->
+    <key function="front_windows_down" value="VK_DOWN"/>     <!--default  <key function="front_windows_down" value="VK_DOWN"/>-->   
+    <key function="back_windows_up1" value="VK_CONTROL"/>    <!--default  <key function="back_windows_up1" value="VK_CONTROL"/>-->
+    <key function="back_windows_up2" value="VK_UP"/>         <!--default  <key function="back_windows_up2" value="VK_UP"/>-->
+    <key function="back_windows_down1" value="VK_CONTROL"/>  <!--default  <key function="back_windows_down1" value="VK_CONTROL"/>-->
+    <key function="back_windows_down2" value="VK_DOWN"/>     <!--default  <key function="back_windows_down2" value="VK_DOWN"/>-->
+    <key function="no_siren" value="VK_SUBTRACT"/>           <!--default  <key function="no_siren" value="VK_SUBTRACT"/>-->
+    
+    <!--Game Controls-->
+    <key function="large_hud" value="VK_MULTIPLY"/>          <!--default  <key function="large_hud" value="VK_MULTIPLY"/>-->
+    <key function="push_through_wall" value="VK_DIVIDE"/>     <!--default  <key function="push_through_wall" value="VK_DIVIDE"/>-->
+  </keys>
+</er-config>
